@@ -1,38 +1,128 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color:#F4F6FA;
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sidebar {
+  width: 184px;
+  height: 100vh;
+  overflow: auto;
+  border: 0 1px 0 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  color: #fff;
+  background-color: #fff;
+}
+
+.logotext {
+  color: #1599DA;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  row-gap: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+.menu-item {
+  list-style-type: none;
+  font-family: DM sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--60, rgba(5, 25, 44, 0.60));
+  
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text {
+  color: #1599DA;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
 }
+
+.edit {
+  padding: 8px 10px;
+  border-radius: 48px;
+  border: 1px solid var(--stroke, #DEDFE7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 73px;
+  gap: 7px;
+  flex: 1 0 0;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #fff
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  color: #05192C;
+
+}
+
+.logout {
+  color: var(--60, rgba(5, 25, 44, 0.60));
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.icon{
+  display: flex;
+  column-gap: 16px;
+  flex-direction: row;
+}
+
+.logo-style{
+  display: flex;
+  width: 91px;
+  height: 80px;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.top{
+  display: flex;
+  flex-direction: column;
+  row-gap:  56px;
+}
+
+.logo{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.bottom{
+  display: flex;
+  justify-content:inherit;
+  margin-top: 50px;
+  
+}
+
+
+
+
+
+
+
