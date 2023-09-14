@@ -24,14 +24,14 @@ const Sidebar = () => {
                 <div>
                     <p className="name">Louis Carter</p>
                 </div>
-                <div>
+                <div className="edit-btn"> 
                     <button className="edit">Edit</button>
                 </div>
             </div>
 
             <ul className="menu">
                 <li className="menu-item">
-                    <a>
+                    <a href="#" className="menu-bar"> 
                         <div className="icon">
                             <span > <img src={HomeIcon} /></span>
                             <span>Home</span>
@@ -39,15 +39,15 @@ const Sidebar = () => {
                     </a>
                 </li>
                 <li className="menu-item">
-                    <a>
+                    <a href="#" className="menu-bar">
                         <div className="icon">
                             <span > <img src={GrantIcon} /></span>
-                            <span>Grant</span>
+                            <span className="grant">Grant</span>
                         </div>
                     </a>
                 </li>
                 <li className="menu-item">
-                    <a>
+                    <a href="#" className="menu-bar">
                         <div className="icon">
                             <span><img src={GiveIcon} /></span>
                             <span>Give</span>
@@ -55,7 +55,7 @@ const Sidebar = () => {
                     </a>
                 </li>
                 <li className="menu-item">
-                    <a>
+                    <a href="#" className="menu-bar">
                         <div className="icon">
                             <span><img src={FavroriteIcon} /></span>
                             <span>Favorites</span>
@@ -63,7 +63,7 @@ const Sidebar = () => {
                     </a>
                 </li>
                 <li className="menu-item">
-                    <a>
+                    <a href="#" className="menu-bar"> 
                         <div className="icon">
                             <span><img src={ActivityIcon} /></span>
                             <span>Activity</span>
@@ -71,7 +71,7 @@ const Sidebar = () => {
                     </a>
                 </li>
                 <li className="menu-item">
-                    <a>
+                    <a href="#" className="menu-bar">
                         <div className="icon">
                             <span><img src={LegacyIcon} /></span>
                             <span>Legacy</span>
@@ -87,7 +87,7 @@ const Sidebar = () => {
             <div className="logout">
                 <div className="icon">
                     <span><img src={LogoutIcon} /></span>
-                    <span>Logout</span>
+                    <span>Log out</span>
                 </div>
             </div>
         </div>
